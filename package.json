@@ -1,0 +1,10 @@
+{
+  "name": "shop-burmalda",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node --disable-warning=ExperimentalWarning local.mjs",
+    "validate": "node scripts/validate-artifact.mjs"
+  }
+}
